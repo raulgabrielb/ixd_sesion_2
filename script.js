@@ -38,12 +38,12 @@ function setup() {
 
 function portada() {
     createSpan("¡Algunas Frutas saludables!").parent("title");
-    createElement('p','Comer '+random(lorenIpsum)+'es muy saludable.').parent(loPrincipal);
+    createElement('p','Comer '+random(lorenIpsum)+' es muy saludable.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
 function pagina() {
     createSpan("¡Algunas verduras saludables!").parent("title");
-    createElement('p','Comer '+random(lorenIpsum)+'es muy saludable.').parent(loPrincipal);
+    createElement('p','Comer '+random(lorenIpsum)+' es muy saludable.').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
