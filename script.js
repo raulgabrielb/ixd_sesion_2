@@ -37,13 +37,13 @@ function setup() {
 }
 
 function portada() {
-    createSpan("Frutas saludables").parent("title");
-    createElement('p','Comer'+random(lorenIpsum)+'es muy saludable.').parent(loPrincipal);
+    createSpan("¡Algunas Frutas saludables!").parent("title");
+    createElement('p','Comer '+random(lorenIpsum)+'es muy saludable.').parent(loPrincipal);
     select("a:nth-child(1)").style("font-weight", "bold").style("color", "#000000");
 }
 
 function pagina() {
-    createSpan("Verduras saludables").parent("title");
-    createElement('p','Comer'+random(lorenIpsum)+'es muy saludable.').parent(loPrincipal);
+    createSpan("¡Algunas verduras saludables!").parent("title");
+    createElement('p','Comer '+random(lorenIpsum)+'es muy saludable.').parent(loPrincipal);
     select("a:nth-child(2)").style("font-weight", "bold").style("color", "#000000");
 }
